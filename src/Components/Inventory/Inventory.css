@@ -1,0 +1,54 @@
+.inventory-container {
+    margin-top: 8rem;
+    margin-left: 8rem;
+    overflow-x: auto;
+}
+.card-header{
+    margin-bottom: 10px;
+    padding: 0px;
+    border-bottom: 0;
+}
+  
+  /* Container for the table to enable horizontal scrolling */
+  .table-container {
+      width: 100%;
+      overflow-x: auto;
+    }
+    
+    /* Table styling */
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+      white-space: nowrap; /* Prevent text wrapping in cells */
+    }
+    
+    /* Header styling */
+    .table-header {
+      background-color: #f1f1f1;
+      padding: 10px;
+      overflow: hidden; /* Clear floats */
+    }
+    
+    /* Search bar styling */
+    .search-bar {
+      float: left;
+      margin-right: 10px;
+    }
+    
+    /* Download button styling */
+    .download-button {
+      float: right;
+      padding: 5px 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    

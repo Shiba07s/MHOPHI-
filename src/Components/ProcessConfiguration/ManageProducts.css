@@ -1,0 +1,62 @@
+.material-container {
+    margin-top: 7.5rem;
+    margin-left: 8rem;
+    overflow-x: auto;
+  }
+  
+  .custom-button {
+    background-color: #e0e0e0; /* Slightly darker than Bootstrap's light variant (#f8f9fa) */
+    border: 1px solid #d6d6d6; /* Border to match the background color */
+    color: black; /* Text color */
+    padding: 0.375rem 0.75rem; /* Padding for square shape */
+    border-radius: 0.5; /* No border radius for square shape */
+    margin-left: 15px;
+  }
+  
+  .custom-button:hover {
+    background-color: #d0d0d0; /* Slightly darker shade for hover effect */
+    border-color: #c6c6c6; /* Matching border color for hover effect */
+  }
+  /* Container for the table to enable horizontal scrolling */
+  .table-container {
+      width: 100%;
+      overflow-x: auto;
+    }
+    
+    /* Table styling */
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+      white-space: nowrap; /* Prevent text wrapping in cells */
+    }
+    
+    /* Header styling */
+    .table-header {
+      background-color: #f1f1f1;
+      padding: 10px;
+      overflow: hidden; /* Clear floats */
+    }
+    
+    /* Search bar styling */
+    .search-bar {
+      float: left;
+      margin-right: 10px;
+    }
+    
+    /* Download button styling */
+    .download-button {
+      float: right;
+      padding: 5px 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
